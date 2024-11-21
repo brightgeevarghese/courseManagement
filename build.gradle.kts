@@ -34,3 +34,8 @@ dependencies {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
+
+tasks.bootJar {
+    archiveBaseName = "coursemanagement"
+    archiveVersion = "1.0.1"
+}
